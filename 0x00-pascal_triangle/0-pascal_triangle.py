@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''This module provides a function to generate Pascal's Triangle for a given number of rows'''
+'''Module to return pascal triangle'''
 
 
 def pascal_triangle(n):
@@ -8,7 +8,7 @@ def pascal_triangle(n):
     Args:
       n (int): The number of rows of the triangle
     Returns:
-      List of lists: Representing the rows of the Pascal’s triangle
+      List of lists of integers representing the Pascal’s triangle
     '''
     lists = []
     if n == 0:
